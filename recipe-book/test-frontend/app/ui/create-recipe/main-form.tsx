@@ -124,7 +124,7 @@ export default function RecipeForm(this: any) {
   };
 
   // confirm data before submitting form
-  const confirmForm: SubmitHandler<inputs> = (data) => {
+  const confirmForm: SubmitHandler<Inputs> = (data) => {
     var recipe = data;
   };
 
@@ -379,8 +379,8 @@ export default function RecipeForm(this: any) {
         {currentStep === 5 && (
           <div>
             <h2 className="text-center text-lg font-bold">
-              Your recipe has been save. Select "Recipes" in the sidebar to view
-              all of your recipes.
+              Your recipe has been save. Select &quot;Recipes&quot; in the
+              sidebar to view all of your recipes.
             </h2>
           </div>
         )}
